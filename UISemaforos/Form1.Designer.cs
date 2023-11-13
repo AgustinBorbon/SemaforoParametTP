@@ -29,133 +29,133 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
+            this.sem2rojo = new System.Windows.Forms.PictureBox();
+            this.sem2verde = new System.Windows.Forms.PictureBox();
+            this.sem3verde = new System.Windows.Forms.PictureBox();
+            this.sem3rojo = new System.Windows.Forms.PictureBox();
+            this.sem4rojo = new System.Windows.Forms.PictureBox();
+            this.sem4verde = new System.Windows.Forms.PictureBox();
+            this.sem1rojo = new System.Windows.Forms.PictureBox();
+            this.sem1verde = new System.Windows.Forms.PictureBox();
+            this.sem5rojo = new System.Windows.Forms.PictureBox();
+            this.sem5verde = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.sem2rojo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.sem2verde)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.sem3verde)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.sem3rojo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.sem4rojo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.sem4verde)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.sem1rojo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.sem1verde)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.sem5rojo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.sem5verde)).BeginInit();
             this.SuspendLayout();
             // 
-            // pictureBox1
+            // sem2rojo
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(388, 102);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(55, 74);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.sem2rojo.Image = ((System.Drawing.Image)(resources.GetObject("sem2rojo.Image")));
+            this.sem2rojo.Location = new System.Drawing.Point(388, 102);
+            this.sem2rojo.Name = "sem2rojo";
+            this.sem2rojo.Size = new System.Drawing.Size(55, 74);
+            this.sem2rojo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.sem2rojo.TabIndex = 0;
+            this.sem2rojo.TabStop = false;
             // 
-            // pictureBox2
+            // sem2verde
             // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(440, 102);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(55, 74);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 1;
-            this.pictureBox2.TabStop = false;
+            this.sem2verde.Image = ((System.Drawing.Image)(resources.GetObject("sem2verde.Image")));
+            this.sem2verde.Location = new System.Drawing.Point(440, 102);
+            this.sem2verde.Name = "sem2verde";
+            this.sem2verde.Size = new System.Drawing.Size(55, 74);
+            this.sem2verde.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.sem2verde.TabIndex = 1;
+            this.sem2verde.TabStop = false;
             // 
-            // pictureBox3
+            // sem3verde
             // 
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(172, 240);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(55, 94);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 2;
-            this.pictureBox3.TabStop = false;
+            this.sem3verde.Image = ((System.Drawing.Image)(resources.GetObject("sem3verde.Image")));
+            this.sem3verde.Location = new System.Drawing.Point(172, 240);
+            this.sem3verde.Name = "sem3verde";
+            this.sem3verde.Size = new System.Drawing.Size(55, 94);
+            this.sem3verde.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.sem3verde.TabIndex = 2;
+            this.sem3verde.TabStop = false;
             // 
-            // pictureBox4
+            // sem3rojo
             // 
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(218, 240);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(55, 94);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 3;
-            this.pictureBox4.TabStop = false;
+            this.sem3rojo.Image = ((System.Drawing.Image)(resources.GetObject("sem3rojo.Image")));
+            this.sem3rojo.Location = new System.Drawing.Point(218, 240);
+            this.sem3rojo.Name = "sem3rojo";
+            this.sem3rojo.Size = new System.Drawing.Size(55, 94);
+            this.sem3rojo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.sem3rojo.TabIndex = 3;
+            this.sem3rojo.TabStop = false;
             // 
-            // pictureBox5
+            // sem4rojo
             // 
-            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(69, 162);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(55, 73);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 4;
-            this.pictureBox5.TabStop = false;
+            this.sem4rojo.Image = ((System.Drawing.Image)(resources.GetObject("sem4rojo.Image")));
+            this.sem4rojo.Location = new System.Drawing.Point(69, 162);
+            this.sem4rojo.Name = "sem4rojo";
+            this.sem4rojo.Size = new System.Drawing.Size(55, 73);
+            this.sem4rojo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.sem4rojo.TabIndex = 4;
+            this.sem4rojo.TabStop = false;
             // 
-            // pictureBox6
+            // sem4verde
             // 
-            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(117, 162);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(55, 73);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox6.TabIndex = 5;
-            this.pictureBox6.TabStop = false;
+            this.sem4verde.Image = ((System.Drawing.Image)(resources.GetObject("sem4verde.Image")));
+            this.sem4verde.Location = new System.Drawing.Point(117, 162);
+            this.sem4verde.Name = "sem4verde";
+            this.sem4verde.Size = new System.Drawing.Size(55, 73);
+            this.sem4verde.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.sem4verde.TabIndex = 5;
+            this.sem4verde.TabStop = false;
             // 
-            // pictureBox7
+            // sem1rojo
             // 
-            this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
-            this.pictureBox7.Location = new System.Drawing.Point(289, 264);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(55, 70);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox7.TabIndex = 6;
-            this.pictureBox7.TabStop = false;
+            this.sem1rojo.Image = ((System.Drawing.Image)(resources.GetObject("sem1rojo.Image")));
+            this.sem1rojo.Location = new System.Drawing.Point(289, 264);
+            this.sem1rojo.Name = "sem1rojo";
+            this.sem1rojo.Size = new System.Drawing.Size(55, 70);
+            this.sem1rojo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.sem1rojo.TabIndex = 6;
+            this.sem1rojo.TabStop = false;
             // 
-            // pictureBox8
+            // sem1verde
             // 
-            this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
-            this.pictureBox8.Location = new System.Drawing.Point(338, 264);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(55, 70);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox8.TabIndex = 7;
-            this.pictureBox8.TabStop = false;
+            this.sem1verde.Image = ((System.Drawing.Image)(resources.GetObject("sem1verde.Image")));
+            this.sem1verde.Location = new System.Drawing.Point(338, 264);
+            this.sem1verde.Name = "sem1verde";
+            this.sem1verde.Size = new System.Drawing.Size(55, 70);
+            this.sem1verde.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.sem1verde.TabIndex = 7;
+            this.sem1verde.TabStop = false;
             // 
-            // pictureBox9
+            // sem5rojo
             // 
-            this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
-            this.pictureBox9.Location = new System.Drawing.Point(338, 89);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(55, 50);
-            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox9.TabIndex = 8;
-            this.pictureBox9.TabStop = false;
+            this.sem5rojo.Image = ((System.Drawing.Image)(resources.GetObject("sem5rojo.Image")));
+            this.sem5rojo.Location = new System.Drawing.Point(338, 89);
+            this.sem5rojo.Name = "sem5rojo";
+            this.sem5rojo.Size = new System.Drawing.Size(55, 50);
+            this.sem5rojo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.sem5rojo.TabIndex = 8;
+            this.sem5rojo.TabStop = false;
             // 
-            // pictureBox10
+            // sem5verde
             // 
-            this.pictureBox10.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox10.Image")));
-            this.pictureBox10.Location = new System.Drawing.Point(338, 126);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(55, 50);
-            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox10.TabIndex = 9;
-            this.pictureBox10.TabStop = false;
+            this.sem5verde.Image = ((System.Drawing.Image)(resources.GetObject("sem5verde.Image")));
+            this.sem5verde.Location = new System.Drawing.Point(338, 126);
+            this.sem5verde.Name = "sem5verde";
+            this.sem5verde.Size = new System.Drawing.Size(55, 50);
+            this.sem5verde.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.sem5verde.TabIndex = 9;
+            this.sem5verde.TabStop = false;
             // 
             // label1
             // 
@@ -210,6 +210,7 @@
             this.button1.TabIndex = 15;
             this.button1.Text = "Iniciar";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
@@ -222,28 +223,28 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.pictureBox10);
-            this.Controls.Add(this.pictureBox9);
-            this.Controls.Add(this.pictureBox8);
-            this.Controls.Add(this.pictureBox7);
-            this.Controls.Add(this.pictureBox6);
-            this.Controls.Add(this.pictureBox5);
-            this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.sem5verde);
+            this.Controls.Add(this.sem5rojo);
+            this.Controls.Add(this.sem1verde);
+            this.Controls.Add(this.sem1rojo);
+            this.Controls.Add(this.sem4verde);
+            this.Controls.Add(this.sem4rojo);
+            this.Controls.Add(this.sem3rojo);
+            this.Controls.Add(this.sem3verde);
+            this.Controls.Add(this.sem2verde);
+            this.Controls.Add(this.sem2rojo);
             this.Name = "Form1";
             this.Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.sem2rojo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.sem2verde)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.sem3verde)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.sem3rojo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.sem4rojo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.sem4verde)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.sem1rojo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.sem1verde)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.sem5rojo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.sem5verde)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -251,16 +252,16 @@
 
         #endregion
 
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.PictureBox pictureBox6;
-        private System.Windows.Forms.PictureBox pictureBox7;
-        private System.Windows.Forms.PictureBox pictureBox8;
-        private System.Windows.Forms.PictureBox pictureBox9;
-        private System.Windows.Forms.PictureBox pictureBox10;
+        private System.Windows.Forms.PictureBox sem2rojo;
+        private System.Windows.Forms.PictureBox sem2verde;
+        private System.Windows.Forms.PictureBox sem3verde;
+        private System.Windows.Forms.PictureBox sem3rojo;
+        private System.Windows.Forms.PictureBox sem4rojo;
+        private System.Windows.Forms.PictureBox sem4verde;
+        private System.Windows.Forms.PictureBox sem1rojo;
+        private System.Windows.Forms.PictureBox sem1verde;
+        private System.Windows.Forms.PictureBox sem5rojo;
+        private System.Windows.Forms.PictureBox sem5verde;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;

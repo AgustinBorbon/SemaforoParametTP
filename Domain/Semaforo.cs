@@ -20,6 +20,9 @@ namespace Domain
 
         private List<SemaphoreSlim> semaphores = new List<SemaphoreSlim>();
 
+        public PictureBox picture = new PictureBox();
+        
+
         public Semaforo()
         {
 
@@ -34,19 +37,53 @@ namespace Domain
             }
         }
 
-        public void Subscribe(Step paso, ColorLuz color)
-        {
-            if (color == ColorLuz.Rojo)
-                semaphores.Add(paso.Rojo.GetSemaphore());
-            if (color == ColorLuz.Verde)
-                semaphores.Add(paso.Verde.GetSemaphore());
+        //public void Subscribe(Step paso, ColorLuz color)
+        //{
+        //    if (color == ColorLuz.Rojo)
+        //        semaphores.Add(paso.Rojo.GetSemaphore());
+        //    if (color == ColorLuz.Verde)
+        //        semaphores.Add(paso.Verde.GetSemaphore());
 
-            Colores.Add(color.ToString());
+        //    Colores.Add(color.ToString());
+        //}
+        public void Subscribir(Step paso, string letra)
+        {
+            if (letra == "V")
+            {
+                semaphores.Add(paso.Verde.GetSemaphore());
+                Colores.Add(letra);
+            }
+                
+            if (letra == "R")
+            {
+                semaphores.Add(paso.Rojo.GetSemaphore());
+                Colores.Add(letra);
+            }
+                
         }
 
+        //public void Ejecutar()
+        //{
+        //    while(true)
+        //    {
+        //        for (int i = 0; i < semaphores.Count; i++)
+        //        {
+        //            Console.WriteLine($"{Nombre} esperando el color {Colores[i]}");
+
+        //            var sem = semaphores[i];
+
+        //            if (Colores[i] == "Rojo")
+        //                picture.Visible = false;
+        //            else
+        //                picture.Visible = true;
+
+        //            sem.Wait();
+        //        }
+        //    }
+        //}
         public void Ejecutar()
         {
-            while(true)
+            while (true)
             {
                 for (int i = 0; i < semaphores.Count; i++)
                 {
@@ -55,12 +92,28 @@ namespace Domain
                     var sem = semaphores[i];
 
                     if (Colores[i] == "Rojo")
-                        Boton.BackColor = Color.Red;
+                    {
+                        SetPictureBoxVisible(false);
+                    }
                     else
-                        Boton.BackColor = Color.Green;
+                    {
+                        SetPictureBoxVisible(true);
+                    }
 
                     sem.Wait();
                 }
+            }
+        }
+
+        private void SetPictureBoxVisible(bool visible)
+        {
+            if (picture.InvokeRequired)
+            {
+                picture.Invoke(new Action(() => picture.Visible = visible));
+            }
+            else
+            {
+                picture.Visible = visible;
             }
         }
     }
